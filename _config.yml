@@ -1,119 +1,14 @@
 # --- Sitio ---
 title: "Libro de Biología Celular y Molecular — UNSAAC"
+remote_theme: pmarsceill/just-the-docs
 description: "Libro digital, abierto y en evolución del curso de Biología Celular y Molecular (UNSAAC)."
 lang: es-PE
 
-# URL del sitio (ajusta estas dos líneas cuando publiques en GH Pages)
-# Si publicas en https://franciscoascue.github.io/libro-bcm
-url: "https://franciscoascue.github.io"
-baseurl: "/libro-bcm"
-
-# --- Tema ---
-# Consejo: el repo oficial actual del theme es just-the-docs/just-the-docs
-remote_theme: just-the-docs/just-the-docs
-color_scheme: "light"      # "light" | "dark" | "auto"
-logo: "/img/logo.webp"
-favicon_ico: "/img/favicon.ico"
-
-# --- Navegación y búsqueda ---
-search_enabled: true
-heading_anchors: true
-aux_links:
-  "Comprar PDF":
-    - "https://tu-enlace-de-compra-o-gumroad.com/tu-libro"
-  "Donaciones":
-    - "https://www.buymeacoffee.com/foreslab"   # cámbialo por tu enlace real
-aux_links_new_tab: true
-
-# --- Enlaces de edición para colaboración (¡clave para estudiantes!) ---
-gh_edit_link: true
-gh_edit_link_text: "Sugerir una edición"
-gh_edit_repository: "https://github.com/Biosofhus/biologia-celular-y-molecular"  # reemplaza por tu repo real
-gh_edit_branch: "main"                                            # o "master"
-gh_edit_view_mode: "tree"                                         # "tree" o "edit"
-
-# --- Pie de página ---
-footer_content: >
-  Repositorio mantenido por Francisco Ascue —
-  <a href="https://github.com/FranciscoAscue" target="_blank" rel="noopener">GitHub</a>.
-  Contenido bajo licencia CC-BY 4.0 salvo que se indique lo contrario.
-
-# --- Botón volver arriba ---
+# Back to top link
 back_to_top: true
 back_to_top_text: "Regresar al inicio"
 
-# --- Colecciones (opcional, útil si organizas por unidades/capítulos) ---
-# Crea una carpeta _unidades/ con md de capítulos y controla el orden con 'nav_order'
-collections:
-  unidades:
-    output: true
-    permalink: /:collection/:name
-just_the_docs:
-  collections:
-    unidades:
-      name: "Unidades"
-      nav_exclude: false
+footer_content: "Repositorio mantenido por Francisco Ascue y Estudiantes<a href=\"https://github.com/FranciscoAscue\">GitHub</a>"
 
-# --- Orden de navegación por defecto para páginas ---
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-      nav_order: 10
-      has_toc: true
-  - scope:
-      path: ""
-      type: "unidades"
-    values:
-      layout: "default"
-      nav_order: 50
-      has_toc: true
-
- 
-# --- Plugins compatibles con GitHub Pages ---
-plugins:
-  - jekyll-include-cache
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-redirect-from
-
-# --- SEO y Feed ---
-# Añade <meta> y mejor vista previa en redes
-seo:
-  type: "Book"   # o "Website"
-feed:
-  path: "feed.xml"
-
-# --- Redirecciones útiles si renombras capítulos/páginas ---
-redirect_from:
-  json: false
-
-# --- Markdown / Kramdown (MathJax opcional para fórmulas) ---
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-  math_engine: mathjax
-  math_engine_opts:
-    preview: false
-
-# --- Excluir cosas que no deben publicarse ---
-exclude:
-  - "README.md"
-  - "scripts/"
-  - "vendor/"
-  - ".github/"
-  - "Gemfile"
-  - "Gemfile.lock"
-
-# --- Analíticas (opcional) ---
-# gtag: "G-XXXXXXXXXX"
-
-# --- Construcción ---
-# Mantén limpio el build en GH Actions/Pages
-sass:
-  style: compressed
+#color_scheme: "dark"
+logo: "/img/logo.webp"

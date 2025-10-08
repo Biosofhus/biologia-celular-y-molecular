@@ -24,13 +24,3 @@ Reunir contenidos claros y actualizados de biología celular y molecular—**con
   note    = {Markdown + Jekyll; versión en evolución continua}
 }
 ```
-
----
-
-### Nota sobre la alternativa `mdBook`
-
-Si en el tiempo desean un flujo aún más simple para estudiantes (solo `.md`, navegación y búsqueda integradas, despliegue directo a GitHub Pages), **`mdBook`** es excelente para cursos y manuales. La migración desde Markdown de Jekyll suele ser directa (frentes YAML se pueden adaptar o eliminar).
-
----
-
-¿Quieres que lo deje configurado con **Minimal Mistakes** + **colección `_chapters`** (layout, sidebar, TOC) y un **workflow** de Pages listo? Te preparo los archivos base (`_config.yml`, `Gemfile`, layouts y un capítulo ejemplo).

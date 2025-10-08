@@ -65,3 +65,4 @@ La meta es ofrecer un material **usable en clase** y **útil para el autoaprendi
   url     = {https://<owner>.github.io/<repo>/},
   note    = {mdBook; versión en evolución continua}
 }
+```

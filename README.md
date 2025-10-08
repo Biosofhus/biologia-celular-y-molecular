@@ -10,16 +10,16 @@ Reunir contenidos claros y actualizados de biología celular y molecular—**con
 
 ## Citación
 
-> “**Biología Celular y Molecular — UNSAAC (Libro Digital)**. Curso del Prof. Francisco Ascue y estudiantes, UNSAAC (Perú). Versión {tag}, {año}. URL: ”
+> “**Biología Celular y Molecular — UNSAAC (Libro Digital)**. Curso del Prof. Francisco Ascue y estudiantes, UNSAAC (Perú). Versión 0.1 , 2025 . URL: ”
 
 **BibTeX (ejemplo)**
 
 ```bibtex
-@book{BCM_UNSAAC_{YEAR},
+@book{BCM_UNSAAC_{2025},
   title   = {Biología Celular y Molecular — UNSAAC (Libro Digital)},
   author  = {{Francisco Ascue y estudiantes del curso}},
   year    = {YEAR},
-  version = {vX.Y.Z},
+  version = {0.01},
   url     = {https://github.com/<org>/<repo>},
   note    = {Markdown + Jekyll; versión en evolución continua}
 }

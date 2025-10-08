@@ -57,7 +57,7 @@ La meta es ofrecer un material **usable en clase** y **útil para el autoaprendi
 > “**Biología Celular y Molecular — UNSAAC (Libro Digital Vivo)**. Curso del Prof. Francisco Ascue y estudiantes, UNSAAC (Perú). Versión {tag o commit}, {año}. URL: https://<owner>.github.io/<repo>/”
 
 ```bibtex
-@book{BCM_UNSAAC_{YEAR},
+@book{BCM_UNSAAC_2025,
   title   = {Biología Celular y Molecular — UNSAAC (Libro Digital)},
   author  = {{Francisco Ascue y estudiantes del curso}},
   year    = {2025},

@@ -1,3 +1,13 @@
+## Licencias
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-green.svg)](./LICENSE-CC-BY-SA-4.0)
+
+- **Código, plantillas y workflows** → Licencia **MIT**. Ver [`LICENSE`](./LICENSE).
+- **Texto y figuras originales** → Licencia **CC BY-SA 4.0**. Ver [`LICENSE-CC-BY-SA-4.0`](./LICENSE-CC-BY-SA-4.0).
+
+> **Snippets de código en páginas Markdown (`docs/`)**: salvo nota explícita al lado del bloque, se consideran bajo **MIT**. El resto del contenido de esas páginas permanece bajo **CC BY-SA 4.0**.
+
 # Biología Celular y Molecular — UNSAAC
 
 > **Iniciativa del curso de Biología Celular y Molecular**, dictado por el **Prof. Francisco Ascue** junto con sus **estudiantes** de la **Universidad Nacional de San Antonio Abad del Cusco (UNSAAC, Perú)**.

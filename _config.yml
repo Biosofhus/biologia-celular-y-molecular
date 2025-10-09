@@ -12,3 +12,19 @@ footer_content: "Repositorio mantenido por Francisco Ascue y Estudiantes<a href=
 
 #color_scheme: "dark"
 logo: "/img/logo.webp"
+
+defaults:
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "page"
+      content_license: "CC BY-SA 4.0"   # texto/figuras
+      code_license: "MIT"               # código dentro de los .md (snippets)
+  - scope:
+      path: ""          # portada/otras páginas en raíz
+      type: "pages"
+    values:
+      layout: "page"
+      content_license: "CC BY-SA 4.0"
+      code_license: "MIT"

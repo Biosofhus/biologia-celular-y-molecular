@@ -1,0 +1,32 @@
+{% assign content_license = page.content_license | default: site.content_license | default: page.license | default: site.license %}
+{% assign code_license    = page.code_license    | default: site.code_license %}
+
+<div class="license-box" style="margin-top:1rem;padding:0.9rem 1rem;border:1px solid #e5e7eb;border-radius:0.6rem">
+  <strong>Licencias de este sitio/proyecto</strong>
+  <ul style="margin:0.5rem 0 0 1rem">
+    {% if code_license %}
+      <li> <em>Código, plantillas y workflows:</em>
+        {% if code_license contains 'MIT' %}
+          <a href="{{ '/LICENSE' | relative_url }}">MIT</a>
+          <img alt="MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" style="vertical-align:middle;margin-left:0.35rem">
+        {% else %}
+          {{ code_license }}
+        {% endif %}
+      </li>
+    {% endif %}
+    {% if content_license %}
+      <li> <em>Texto y figuras originales:</em>
+        {% if content_license contains 'CC BY-SA 4.0' %}
+          <a href="{{ '/LICENSE-CC-BY-SA-4.0' | relative_url }}">CC BY-SA 4.0</a>
+          <img alt="CC BY-SA 4.0" src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-green.svg" style="vertical-align:middle;margin-left:0.35rem">
+        {% else %}
+          {{ content_license }}
+        {% endif %}
+      </li>
+    {% endif %}
+  </ul>
+
+  <p style="margin:0.6rem 0 0 0;font-size:0.95em">
+    <strong>Nota sobre snippets de código en páginas Markdown:</strong> salvo indicación contraria junto al bloque, los fragmentos de código publicados en estas páginas se liberan bajo <em>MIT</em>; el resto del contenido de la página (texto/figuras) se libera bajo <em>CC BY-SA 4.0</em>.
+  </p>
+</div>

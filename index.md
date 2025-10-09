@@ -1,9 +1,9 @@
 
 ![](img/portada.webp)
 
-> **Biología Celular y Molecular — UNSAAC (Libro Digital Vivo)**  
-> Iniciativa del **curso de Biología Celular y Molecular**, dictado por el **Prof. Francisco Ascue** junto con sus **estudiantes** de la **Universidad Nacional de San Antonio Abad del Cusco (Perú)**.  
-> Este libro es **abierto, colaborativo y en evolución continua**.
+**Biología Celular y Molecular — UNSAAC (Libro Digital Vivo)**  
+Iniciativa del **curso de Biología Celular y Molecular**, dictado por el **Prof. Francisco Ascue** junto con sus **estudiantes** de la **Universidad Nacional de San Antonio Abad del Cusco (Perú)**.  
+Este libro es **abierto, colaborativo y en evolución continua**.
 
 ## Propósito del libro
 
@@ -25,21 +25,9 @@ La meta es ofrecer un material **usable en clase** y **útil para el autoaprendi
 
 ## Cómo leer y navegar
 
-- Usa el **índice lateral** (derivado de `SUMMARY.md`) para moverte entre capítulos.  
+- Usa el **índice lateral** para moverte entre capítulos.  
 - Cada capítulo incluye **objetivos de aprendizaje**, **resúmenes** y **referencias**.  
-- Si prefieres una copia offline, consulta la página **“Comprar PDF / Donar”** para acceder a **versiones en PDF** y apoyar la iniciativa.
-
-## Cómo colaborar (¡sencillo!)
-
-1. En cualquier página del sitio, haz clic en **“Suggest an edit”**.  
-2. Se abrirá el **editor web de GitHub** con el archivo `.md` correspondiente.  
-3. Escribe tus mejoras o correcciones, guarda y envía una **propuesta de cambio (PR)**.  
-4. El equipo del curso revisará y fusionará los aportes.
-
-> **Consejos de estilo**  
-> - Prioriza un lenguaje **claro** y ejemplos concretos.  
-> - Incluye **alt text** en todas las imágenes.  
-> - Cita fuentes con **DOI/URL** cuando corresponda.
+- Si prefieres una copia offline, consulta la página [Comprar PDF / Donar](https://biosofhus.org.pe/biologia-celular-y-molecular/docs/Compras-y-donaciones.html) para acceder a **versiones en PDF** y apoyar la iniciativa.
 
 ## Principios editoriales
 
@@ -49,21 +37,21 @@ La meta es ofrecer un material **usable en clase** y **útil para el autoaprendi
 
 ## Licencias y uso
 
-- **Texto y figuras originales**: recomendado **CC BY-SA 4.0**.  
+- **Texto y figuras originales**: **CC BY-SA 4.0**.  
 - **Código y configuraciones** (plantillas/workflows): **MIT**.  
-- **Material de terceros**: se cita licencia y autoría en la leyenda y en `CREDITS.md`.
+- **Material de terceros**: se cita licencia y autoría en la leyenda.
 
 ## Cómo citar este recurso
 
-> “**Biología Celular y Molecular — UNSAAC (Libro Digital Vivo)**. Curso del Prof. Francisco Ascue y estudiantes, UNSAAC (Perú). Versión {tag o commit}, {año}. URL: https://<owner>.github.io/<repo>/”
+> “**Biología Celular y Molecular — UNSAAC (Libro Digital Vivo)**. Curso del Prof. Francisco Ascue y estudiantes, UNSAAC (Perú). Versión 0.01, 2025. URL: https://biosofhus.org.pe/biologia-celular-y-molecular”
 
 ```bibtex
 @book{BCM_UNSAAC_2025,
   title   = {Biología Celular y Molecular — UNSAAC (Libro Digital)},
-  author  = {Francisco Ascue y estudiantes del curso},
+  author  = {Francisco Ascue et al.},
   year    = {2025},
   version = {0.01},
-  url     = {https://<owner>.github.io/<repo>/},
-  note    = {mdBook; versión en evolución continua}
+  url     = {https://biosofhus.org.pe/biologia-celular-y-molecular},
+  note    = {versión en evolución continua}
 }
 ```

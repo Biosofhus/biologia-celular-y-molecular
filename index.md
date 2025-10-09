@@ -1,5 +1,5 @@
 ---
-title: "Biología Celular y Molecular — UNSAAC"
+title: "Biología Celular y Molecular"
 layout: page
 content_license: "CC BY-SA 4.0"  # opcional; ya lo pone defaults
 code_license: "MIT"              # idem

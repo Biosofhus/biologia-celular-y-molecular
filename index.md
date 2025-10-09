@@ -1,3 +1,11 @@
+---
+title: "Biología Celular y Molecular — UNSAAC (Libro Digital Vivo)"
+layout: page
+content_license: "CC BY-SA 4.0"  # opcional; ya lo pone defaults
+code_license: "MIT"              # idem
+---
+
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
 
 ![](img/portada.webp)
 

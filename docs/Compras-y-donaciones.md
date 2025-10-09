@@ -1,7 +1,7 @@
 
 # Apoyar la iniciativa
 
-![Portada del libro](/img/portada.webp)
+![Portada del libro](img/portada.webp)
 
 **Biología Celular y Molecular — UNSAAC (Libro Digital Vivo)** es un proyecto abierto creado por el **Prof. Francisco Ascue** y sus **estudiantes**.  
 Tu aporte permite sostener la edición continua, la creación de figuras, la revisión por pares y el hosting.

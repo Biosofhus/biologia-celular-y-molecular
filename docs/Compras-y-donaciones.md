@@ -1,5 +1,10 @@
+---
+title: "Donaciones y ventas"
+layout: page
+content_license: "CC BY-SA 4.0"
+code_license: "MIT"          
+---
 
-# Apoyar la iniciativa
 
 ![Portada del libro](../img/portada.webp)
 

@@ -1,5 +1,5 @@
 
-# Comprar el PDF y apoyar la iniciativa
+# Apoyar la iniciativa
 
 ![Portada del libro](/img/portada.webp)
 
